@@ -1,14 +1,13 @@
--mkdir "Name"
--cd 
--git init
--git -a
+-mkdir "Name" - neuen Ordner erstellen
+-cd [Name] - in den Ordne reingehen
+-git init - Repo local erstellen
 -touch.gitignore
--nano.gitignore -> .DS_STORE
+-nano.gitignore -> .DS_STORE - speziel Datei
 -touch README.md
 -nano README.md
 
 
--git add .
--git commit -m "..."
--git remote add origi "Link"
--git push - origin main
+-git add . - local Repo stagen
+-git commit -m "..." local Repo commitmen
+-git remote add origi "Link" - Verbindung Remote to local erstellen
+-git push (-u origin main) - auf GitHub pushen (nur beim ersten Mal) 
