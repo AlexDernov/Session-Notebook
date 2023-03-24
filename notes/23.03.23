@@ -1,0 +1,14 @@
+-mkdir "Name"
+-cd 
+-git init
+-git -a
+-touch.gitignore
+-nano.gitignore -> .DS_STORE
+-touch README.md
+-nano README.md
+
+
+-git add .
+-git commit -m "..."
+-git remote add origi "Link"
+-git push - origin main
